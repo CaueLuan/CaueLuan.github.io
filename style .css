@@ -1,0 +1,103 @@
+/*RESETS E BASICOS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-height: 100%;
+}
+
+html {
+  font-family: monospace, sans-serif, serif;
+}
+
+h2 {
+  padding: 25px 0;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+/*HEADER */
+#logo{
+	padding-left: 550px;
+	width: 320px;
+    height: 100px;
+}
+
+.header{ 
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column;text-align:
+	center;
+	background-image: url("http://www.tibiarte.com.ve/wp-content/uploads/2017/04/Citicen-7.2-1024x768.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+.header h2 {
+	color: white;
+	margin: auto;
+	padding: 30px 60px;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 1.5%;
+	letter-spacing: 1px;
+}
+
+.voc{
+	background-color: #3080cf;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 20px;
+}
+
+@media (min-width:768px) {
+  .voc img {
+    width: 300px;
+  }
+@media (min-width:768px) {
+  .voc h1, h2 {
+    font-size: 50px;}
+  .voc h3 {
+  	font-size: 30px;
+  	color:yellow;
+  	font-family: arial black;}
+}
+
+@media (min-width:768px) {
+  .voc ul {
+    flex-flow: row;
+  }
+}
+
+.contato{
+	background-color: lightblue;
+}
+footer{
+	padding: 10px;
+	background-color: #3080cf;
+}
+
+
+li{
+	list-style: none;
+	text-align: center;
+}
+
